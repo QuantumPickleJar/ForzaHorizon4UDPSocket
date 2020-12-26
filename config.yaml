@@ -1,0 +1,12 @@
+port: 5685
+output_filename: forza_data.csv
+format: csv
+append: False
+packet_format: dash
+parameter_list:
+  - current_engine_rpm
+  - accel
+  - brake
+  - clutch
+  - handbrake
+  - gear

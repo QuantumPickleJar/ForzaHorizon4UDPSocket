@@ -1,0 +1,34 @@
+port: 5685
+output_filename: forza_data.csv
+format: csv
+append: False
+packet_format: dash
+parameter_list:
+  - wall_clock
+  - timestamp_ms
+  - lap_no
+  - cur_lap_time
+  - cur_race_time
+  - engine_max_rpm
+  - yaw
+  - pitch
+  - roll
+  - angular_velocity_x
+  - angular_velocity_y
+  - angular_velocity_z
+  - norm_suspension_travel_FL
+  - norm_suspension_travel_FR
+  - norm_suspension_travel_RL
+  - norm_suspension_travel_RR
+  - car_class
+  - car_ordinal
+  - speed
+  - power
+  - tire_temp_FL
+  - tire_temp_FR
+  - tire_temp_RL
+  - tire_temp_RR
+  - gear
+  - 
+  - 
+  - 
